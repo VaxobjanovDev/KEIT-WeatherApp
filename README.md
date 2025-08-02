@@ -37,13 +37,13 @@ This project allows users to select a company and retrieve real-time weather inf
 
 ## 🏗️ Stack
 
-| Layer            | Tech                                           |
-| ---------------- | ---------------------------------------------- |
-| Frontend         | React (TypeScript), Tailwind CSS, Lucide Icons |
-| State Management | Context API or Provider (for Notification)     |
-| Forms            | React Hook Form or Controlled Components       |
-| Data Fetching    | REST API or Axios                              |
-| UI Components    | Custom + Tailwind                              |
+| Layer            | Tech                                       |
+| ---------------- |--------------------------------------------|
+| Frontend         | React (TypeScript), Tailwind CSS           |
+| State Management | Context API or Provider (for Notification) |
+| Forms            | React Formik Components                    |
+| Data Fetching    | Tanstack query with Axios                  |
+| UI Components    | Custom + Tailwind                          |
 
 ---
 
