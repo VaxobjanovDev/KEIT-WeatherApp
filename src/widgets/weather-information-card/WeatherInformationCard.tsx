@@ -11,8 +11,8 @@ import {
   NavigationRightIcon,
   ThermometerIcon,
   WindIcon
-} from '../../shared/icons/index.tsx'
-import { LoadingSpinner } from '../../shared/ui/loading/index.tsx'
+} from '../../shared/icons'
+import { LoadingSpinner } from '../../shared/ui/loading'
 
 interface WeatherInformationCardProps {
   onGetWeather: () => void

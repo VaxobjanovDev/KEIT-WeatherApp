@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../../app/providers/theme/ThemeContext.tsx'
-import { MoonIcon, SunIcon } from '../../shared/icons/index.tsx'
+import { MoonIcon, SunIcon } from '../../shared/icons'
 
 export const ThemeToggle: React.FC = () => {
   const { theme, toggleTheme } = useTheme()
